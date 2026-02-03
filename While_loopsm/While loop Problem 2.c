@@ -17,8 +17,10 @@ int main(){
             if(max2<count){
                 max2 = count;
             }
-        }
-        else{
+        }else if(max1>value && value>70){
+              count = 1;
+              max1 = value;
+        }else{
             count = 0;
             max1 = 0;
         }
@@ -26,4 +28,5 @@ int main(){
     }
     printf("Noise Violations : %d\n", sum);
     printf("Longest Violation Streak : %d", max2);
+
 }
