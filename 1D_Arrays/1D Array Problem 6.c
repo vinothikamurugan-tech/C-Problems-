@@ -10,7 +10,7 @@ int main(){
     int count = 0;
     for(int i = 0; i<n ; i++){
         int dup = 0;
-        for(int j=0 ; j<count ; j++){
+        for(int j=0 ; j<i ; j++){
             if(a[i]==a[j]){
                 dup = 1;
                 break;
@@ -22,4 +22,5 @@ int main(){
         }
     }
     return 0;
+
 }
