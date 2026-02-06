@@ -30,6 +30,7 @@ int main(){
 
         }
     }
-    printf("Maximum Frequency Value : %d", value);
+    printf("Maximum Frequency Value is : %d", value);
     return 0;
+
 }
