@@ -15,4 +15,5 @@ int main(){
     int a = sum(n);
     printf("Sum of the Natural Number is %d", a);
     return 0;
+
 }
