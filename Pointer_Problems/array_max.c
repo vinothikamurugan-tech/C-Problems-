@@ -11,7 +11,6 @@ int max(int a[], int size){
         p++;
       }
       return maxi;
-
 }
 
 int main(){
@@ -24,4 +23,5 @@ int main(){
     int maxi = max(a, size);
     printf("The Maximum value of the Given Array is %d", maxi);
     return 0;
+
 }
