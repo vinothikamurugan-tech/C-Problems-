@@ -7,13 +7,9 @@ int main(){
     int count = 0;
     while(n>0){
         scanf("%d", &value);
-        if(value>0){
-            initial = initial+value;
-            if(value<2000){
-                count = count+1;
-            }
-        }else if(value<0){
-            initial = initial+value;
+        initial = initial + value;
+        if(initial<2000 && n>1){
+            count = count+1;
         }
         n--;
     }
