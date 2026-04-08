@@ -15,7 +15,7 @@ int main(){
     int a , b;
     scanf("%d", &a);
     scanf("%d", &b);
-    int min;
+    int min; 
     if(a<b){
         min = a;
     }else{
