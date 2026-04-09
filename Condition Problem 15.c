@@ -6,7 +6,7 @@ int main() {
   if(a>0 && b>0 && c>0 && (a+b+c==180)){
       printf("Valid Triangle");
   }else{
-      printf("Invalid Triangle");
+      printf("Invalid Triangle"); 
   }
   return 0;
 }
