@@ -6,6 +6,6 @@ int main() {
   int val = ch;
   if(val>=48 && val<=57){
       printf("digit");
-  }
+  } 
   return 0;
 }
