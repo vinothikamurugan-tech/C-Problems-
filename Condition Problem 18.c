@@ -9,4 +9,4 @@ int main() {
     printf("Rs.%d", bill);
 
     return 0;
-}
+} 
