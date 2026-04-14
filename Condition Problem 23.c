@@ -32,7 +32,7 @@ int main() {
           printf("30 days");
           break;
         case(10):
-          printf("31 days");
+          printf("31 days"); 
           break;
         case(11):
           printf("30 days");
