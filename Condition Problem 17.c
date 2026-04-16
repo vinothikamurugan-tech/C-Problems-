@@ -9,4 +9,4 @@ int main() {
       printf("Number is outside the range");
   }
   return 0;
-}
+} 
