@@ -7,6 +7,6 @@ int main() {
       printf("Three-Digit Number");
   }else{
       printf("Not a Three-Digit Number");
-  }
+  } 
   return 0;
 }
