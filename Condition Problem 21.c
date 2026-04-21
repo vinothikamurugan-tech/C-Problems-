@@ -17,7 +17,7 @@ int main() {
         case '/': 
            if(b!=0){
              printf("Result = %d", a/b);
-           }else{
+           }else{ 
                printf("Division by zero is not allowed");
            }
           break;
