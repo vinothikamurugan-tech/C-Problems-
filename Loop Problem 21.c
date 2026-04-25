@@ -21,7 +21,7 @@ int main() {
             if(min>left){
                 min = left;
             }
-            printf("%d ", n-min);
+            printf("%d ", n-min); 
         }
         printf("\n");
     }
