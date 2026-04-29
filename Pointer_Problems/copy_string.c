@@ -3,7 +3,7 @@
 
 char stringcpy(char *n){
     char str2[100];
-    int i;
+    int i; 
     for(i = 0; *n!='\0'; i++){
         str2[i] = *n;
         n++;
