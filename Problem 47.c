@@ -7,7 +7,7 @@ int main() {
    int c = -3;
    printf("%d\n", !c);
    
-   int e = 7;
+   int e = 7; 
    printf("%d\n", !e);
    return 0;
 }
