@@ -7,7 +7,7 @@ int main() {
    
    int c = 20; 
    int d = 10;
-   printf("%d\n", c-=d);
+   printf("%d\n", c-=d); 
    
    int e = 5;
    int f = 5;
