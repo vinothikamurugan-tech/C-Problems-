@@ -11,6 +11,6 @@ int main() {
    
    int e = 10;  
    int f = 2;
-   printf("%d\n", e*=f);
+   printf("%d\n", e*=f); 
    return 0;
 }
