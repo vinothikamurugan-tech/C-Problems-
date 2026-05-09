@@ -17,7 +17,7 @@ int main() {
         case(2):
           if(year>=3){
               int amount = year*5000;
-              printf("Salary ₹%d",amount+35000);
+              printf("Salary ₹%d",amount+35000); 
               break;
           }else{
               printf("Salary ₹%d",35000);
