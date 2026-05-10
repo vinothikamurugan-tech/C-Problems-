@@ -13,7 +13,7 @@ int main() {
               printf("Pay ₹199");
           }
         case(2):
-          if(paymentmode==11 || paymentmode==12){
+          if(paymentmode==11 || paymentmod e==12){
               printf("Pay ₹%d", 399-20);
               break;
           }else{
