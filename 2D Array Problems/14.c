@@ -11,7 +11,7 @@ int main(){
         }
     }
     int max = 0;
-    int index ;
+    int index ; 
     for(int i = 0 ; i<c ; i++){
         int sum = 0;
         for(int j = 0; j<r ; j++){
