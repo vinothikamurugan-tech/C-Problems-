@@ -10,7 +10,7 @@ char string_concate(char *p , char *q){
     }
     int j;
     for(j = i; *q!='\0'; j++){
-         str3[j] = *q;
+         str3[j] = *q; 
          q++;
     }
     str3[j] = '\0';
