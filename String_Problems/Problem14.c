@@ -6,7 +6,7 @@ int main(){
     char str1[300];
     char str2[300];
     fgets(str1 , sizeof(str1), stdin);
-    int i;
+    int i; 
     for(i = 0; str1[i]!='\0' ; i++){
          str2[i] = str1[i];
     }
