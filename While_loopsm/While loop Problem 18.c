@@ -10,7 +10,7 @@ int main(){
             fail = fail + 1;
         }else if(value<tot){
             safe = safe + 1;
-        }
+        }     
         n--;
     }
     printf("Safe Hours : %d\n", safe);
