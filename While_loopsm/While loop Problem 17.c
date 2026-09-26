@@ -9,7 +9,7 @@ int main() {
         scanf("%d", &value);
         sum = sum + value;
         if(sum<tot){
-            count = count+1;
+            count = count+1;    
             rem = rem - value;
         }
         n--; 
