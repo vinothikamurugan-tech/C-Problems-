@@ -5,7 +5,7 @@ int main(){
     scanf("%d", &tot);
     scanf("%d", &n);
     while(n>0){
-        scanf("%d", &value);
+        scanf("%d", &value);    
         sum = sum + value;
         if(sum<tot){
             count = count+1;
