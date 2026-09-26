@@ -9,7 +9,7 @@ int main(){
         sum = sum+value;
         n--;
     }
-    if(sum<tot){
+    if(sum<tot){   
         printf("Treated Patients : %d\n", sum);
         printf("Rejected Patients : 0");
     }else if(sum>tot){
