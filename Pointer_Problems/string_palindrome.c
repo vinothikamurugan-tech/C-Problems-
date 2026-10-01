@@ -6,7 +6,7 @@ char palindrome(char *p, int len){
         char org = *p;
         char str2[100];
         int i = 0;
-        int j = len-1;
+        int j = len-1;  
         int pal = 1;
         while(i<j){
             if(*(p+i)!=*(p+j)){
