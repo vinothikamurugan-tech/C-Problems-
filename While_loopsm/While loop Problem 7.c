@@ -5,7 +5,7 @@ int main() {
     scanf("%d", &capacity);
     scanf("%d", &n);
     int sum = 0;
-    int percentage = capacity*0.90;
+    int percentage = capacity*0.90;  
     while(n>0){
         scanf("%d", &value);
         sum = sum+value;
