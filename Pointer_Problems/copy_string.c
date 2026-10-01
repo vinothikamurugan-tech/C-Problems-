@@ -8,7 +8,7 @@ char stringcpy(char *n){
         str2[i] = *n;
         n++;
     }
-    str2[i] = '\0';
+    str2[i] = '\0';  
     printf("Copied String is : %s", str2);
 }
 
