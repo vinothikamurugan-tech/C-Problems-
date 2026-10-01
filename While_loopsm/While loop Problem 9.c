@@ -7,7 +7,7 @@ int main(){
     int rem = tot;
     while(n>0){
         scanf("%d", &value);
-        sum = sum+value;
+        sum = sum+value;  
         if(sum<=tot){
             count = count+1;
             rem = rem - value;
