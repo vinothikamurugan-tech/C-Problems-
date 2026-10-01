@@ -4,7 +4,7 @@ int main(){
     int n, value ;
     scanf("%d", &n);
     int max1 = 0 , max2 = 0;
-    int sum = 0;
+    int sum = 0;   
     int count = 0;
     while(n>0){
         scanf("%d", &value);
